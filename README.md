@@ -1,5 +1,5 @@
-# flappybirdDQN
-# Execute
+# Reinforcement Learning: Flappy bird
+## Execution
 ```
 python dqn.py <mode> <image_size> <weights yes or no>
 ```
@@ -9,7 +9,7 @@ python dqn.py train 75 True
 ```
 
 
-# Rank-based prioritization of memory
+## Rank-based prioritization of memory
 
 **Memory map** is our new replay memory. It is a dictionary which contains a
 key used as reference also in the heap and a value which is the original
