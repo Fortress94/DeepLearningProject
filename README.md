@@ -1,5 +1,5 @@
 # Reinforcement Learning: Flappy Bird
-
+In this branch there is the code used for testing different image sizes and networks parameters. 
 ## Exectuion
 ```
 python dqn.py <model> <image_size>
