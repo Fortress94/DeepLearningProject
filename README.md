@@ -1,10 +1,12 @@
 # Reinforcement Learning: Flappy Bird
 
 ## Exectuion
-```python dqn.py <model> <image_size>
+```
+python dqn.py <model> <image_size>
 ```
 **For instance:**
-```python dqn.py train 75
+```
+python dqn.py train 75
 ```
 ## Available image sizes
 - 54
