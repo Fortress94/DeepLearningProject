@@ -379,17 +379,6 @@ def train(model, start, filename, matrix_size, pid, weight_yes):
 
 
         beta = beta + beta_annealing
-        '''
-            #writing live graph with tensorboard
-            #writer.add_scalar('data/epsilon', epsilon, iteration)
-            #writer.add_scalar('data/loss', loss, iteration)
-            #writer.add_scalar('data/q-max', np.max(output.cpu().detach().numpy()), iteration)
-            #writer.add_scalar('data/reward', reward.numpy()[0][0], iteration)
-
-            print("iteration:", iteration, "elapsed time:", time.time() - start, "epsilon:", epsilon, "action:",
-                  action_index.cpu().detach().numpy(), "reward:", reward.numpy()[0][0], "Q max:",
-                  np.max(output.cpu().detach().numpy()))
-         '''
 
 
 def test(model):

@@ -1,7 +1,8 @@
 # Reinforcement Learning: Flappy bird
+In this branch we implemented the rank-based prioritization of memory.
 ## Execution
 ```
-python dqn.py <mode> <image_size> <weights yes or no>
+python dqn.py <model> <image_size> <weights yes or no>
 ```
 **For instance:**
 ```
@@ -21,4 +22,4 @@ tuple of the replay memory.
 decrease the memory map size while the iteration number is increasing.
 
 **Sampling:**
-random sample from 32 quantiles.
+uniformly random sample from 32 segments where theirs sizes are defined by 32 quantiles.
